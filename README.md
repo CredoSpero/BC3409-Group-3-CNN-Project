@@ -1,5 +1,4 @@
 # BC3409-Group-3-CNN-Project
-##
 This repository contains the following:
 1. The code for all the models that we used (TensorFlow, ResNet50, AlexNet and InceptionV3)
 2. Project Report
