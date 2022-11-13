@@ -14,6 +14,7 @@ complement the current methods for the early detection of Melanoma. We have two 
 audiences, the healthcare industry and potential patients (general public), as we feel that this
 issue concerns them the most. Our area of focus is Australia as she has the highest number of
 Melanoma cases.
+
 Since early detection for Melanoma is diagnosed visually, we used Convolutional Neural
 Network (CNN), a class of deep neural networks, most commonly applied to analyse visual
 imagery, to differentiate images of moles.
@@ -23,6 +24,7 @@ there, we will finetune its hyperparameters for further improvement of the model
 we will also use popular CNN models such as ResNet50, AlexNet. We will also use Inceptionv3
 (Orange). Finally, we will compare the different CNN models and evaluate the most efficient
 model for our problem statement.
+
 From our results, we observe that AlexNet-Based has the highest accuracy. ResNet50, on the
 other hand, has the lowest FNR and highest recall. As previously mentioned, in the context of
 healthcare, it is extremely important to have low false negative rates and our chosen model
@@ -30,6 +32,7 @@ should be able to detect almost all positive cases of Melanoma so that no patien
 cancerous melanoma are left undetected and untreated. Hence, a low FNR and high recall is
 preferred, in which case ResNet50 is the most optimal choice. Therefore, our group has decided
 to use ResNet50 as our chosen model for our application.
+
 For this project, we have developed TrueHealth, a machine learning web application hosted on
 Heroku that detects and diagnoses the severity of Melanoma. Our application consists of our
 ResNet50 model, hosted on our Flask Backend to provide diagnosis predictions based on
