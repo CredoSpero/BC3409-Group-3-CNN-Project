@@ -1,4 +1,13 @@
 # BC3409-Group-3-CNN-Project
+##
+This repository contains the following:
+1. The code for all the models that we used (TensorFlow, ResNet50, AlexNet and InceptionV3)
+2. Project Report
+3. Presentation Slides
+4. Link to Kaggle Dataset on Melanoma
+5. Link to YouTube Presentation
+6. Research Paper Review 
+7. Group Project Task Allocation
 
 ## Executive Summary
 Melanoma is the most invasive skin cancer with the highest risk of death. While it’s a serious
